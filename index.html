@@ -3,27 +3,31 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>KONG Sports Wear — Vêtements de sport à La Marsa</title>
-  <meta name="description" content="KONG Sports Wear, marque de vêtements de sport à La Marsa : t-shirts, hoodies, joggings, leggings, brassières et accessoires. Commande en ligne, livraison partout en Tunisie.">
-  <meta name="theme-color" content="#0f1012">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="KONG Sports Wear — La Marsa">
-  <meta property="og:description" content="Tenues de sport homme, femme et accessoires. Livraison partout en Tunisie.">
-  <meta property="og:image" content="https://contactnasriimen-ctrl.github.io/kong-sportswear/og.png">
-  <meta property="og:url" content="https://contactnasriimen-ctrl.github.io/kong-sportswear/">
+  <title>KONG Sports Wear | Ceintures, genouillères et sangles de musculation, La Marsa</title>
+  <meta name="description" content="KONG Sports Wear, équipement de musculation à La Marsa : ceintures de force, genouillères de compression (knee wraps), sangles de tirage et shakers. Commande en ligne, livraison partout en Tunisie.">
+  <meta name="theme-color" content="#0b0b0c">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="canonical" href="https://contactnasriimen-ctrl.github.io/kong-sportswear/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="KONG Sports Wear | Équipement de musculation">
+  <meta property="og:description" content="Ceintures, genouillères, sangles et shakers KONG. Livraison partout en Tunisie.">
+  <meta property="og:image" content="https://contactnasriimen-ctrl.github.io/kong-sportswear/og.jpg">
+  <meta property="og:url" content="https://contactnasriimen-ctrl.github.io/kong-sportswear/">
   <meta property="og:locale" content="fr_TN">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:ital,wght@0,800;0,900;1,700;1,800&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="images/ceinture-noire-salle.jpg">
   <link rel="stylesheet" href="assets/style.css">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ClothingStore",
+    "@type": "SportingGoodsStore",
     "name": "KONG Sports Wear",
-    "description": "Vêtements de sport homme, femme et accessoires.",
+    "description": "Équipement de musculation : ceintures, genouillères, sangles de tirage et shakers.",
+    "logo": "https://contactnasriimen-ctrl.github.io/kong-sportswear/images/logo-kong-noir.png",
+    "image": "https://contactnasriimen-ctrl.github.io/kong-sportswear/images/ceintures-trio.jpg",
     "address": { "@type": "PostalAddress", "addressLocality": "La Marsa", "addressRegion": "Tunis", "addressCountry": "TN" },
     "sameAs": ["https://www.facebook.com/kongsportswear"],
     "currenciesAccepted": "TND"
@@ -31,15 +35,16 @@
   </script>
 </head>
 <body>
-  <div class="demo-bar" id="demoBar" hidden>Catalogue de démonstration : produits et prix indicatifs</div>
+  <div class="demo-bar" id="demoBar" hidden>Site en préparation : prix indicatifs</div>
 
   <header class="header" id="top">
     <div class="wrap header__in">
       <a href="#top" class="logo" aria-label="KONG Sports Wear, accueil">
-        <span class="logo__mark">K</span><span class="logo__word">KONG</span><span class="logo__sub">Sports&nbsp;Wear</span>
+        <img src="images/logo-kong-horizontal-blanc.png" alt="KONG Sports Wear" width="125" height="50">
       </a>
       <nav class="nav" aria-label="Navigation principale">
-        <a href="#boutique">Boutique</a>
+        <a href="#boutique">Produits</a>
+        <a href="#commander">Commander</a>
         <a href="#marque">La marque</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -52,17 +57,15 @@
 
   <main>
     <section class="hero">
+      <img class="hero__bg" src="images/ceinture-noire-salle.jpg" alt="Ceinture de musculation KONG posée au sol devant une barre olympique" width="1450" height="1085">
       <div class="wrap hero__in">
-        <div class="hero__text">
-          <p class="eyebrow">La Marsa · Sportswear</p>
-          <h1>Entraîne-toi comme un <span>KONG.</span></h1>
-          <p class="hero__lead">Des tenues pensées pour bouger, transpirer et recommencer. Homme, femme et accessoires, livrés partout en Tunisie.</p>
-          <div class="hero__cta">
-            <a href="#boutique" class="btn btn--volt">Voir la boutique</a>
-            <a href="#contact" class="btn btn--ghost">Nous écrire</a>
-          </div>
+        <p class="eyebrow">Sports Wear · La Marsa</p>
+        <h1>Soulève<br>plus <span>lourd.</span></h1>
+        <p class="hero__lead">Ceintures, genouillères, sangles et accessoires KONG : l'équipement qui te soutient sur chaque série.</p>
+        <div class="hero__cta">
+          <a href="#boutique" class="btn btn--gold">Voir les produits</a>
+          <a href="#contact" class="btn btn--ghost">Nous écrire</a>
         </div>
-        <div class="hero__art" id="heroArt" aria-hidden="true"></div>
       </div>
     </section>
 
@@ -71,10 +74,10 @@
     <section class="shop wrap" id="boutique">
       <div class="shop__head">
         <div>
-          <p class="eyebrow eyebrow--dark">Boutique</p>
-          <h2>La collection</h2>
+          <p class="eyebrow eyebrow--dark">La boutique</p>
+          <h2>Le matos KONG</h2>
         </div>
-        <label class="sort">
+        <label class="sort" id="sortWrap" hidden>
           <span class="sr-only">Trier</span>
           <select id="sort">
             <option value="">Pertinence</option>
@@ -83,32 +86,57 @@
           </select>
         </label>
       </div>
-      <div class="chips" id="chips" role="tablist" aria-label="Catégories"></div>
+      <div class="chips" id="chips" role="tablist" aria-label="Catégories" hidden></div>
       <div class="grid" id="grid" aria-live="polite"></div>
     </section>
 
+    <section class="pack" id="pack" hidden>
+      <div class="wrap pack__in">
+        <div class="pack__media" id="packMedia"></div>
+        <div class="pack__text">
+          <p class="eyebrow">Offre pack</p>
+          <h2 id="packName"></h2>
+          <p class="pack__desc" id="packDesc"></p>
+          <ul class="ticks" id="packList"></ul>
+          <p class="pack__price" id="packPrice"></p>
+          <button class="btn btn--gold" id="packBtn">Choisir le pack</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="steps wrap" id="commander">
+      <p class="eyebrow eyebrow--dark">Comment commander</p>
+      <h2>Simple comme une série de 3</h2>
+      <ol class="steps__list">
+        <li><span>1</span><h3>Choisis</h3><p>Ton produit, ton coloris et ta taille, puis ajoute-le au panier.</p></li>
+        <li><span>2</span><h3>Envoie</h3><p>Laisse ton nom et ton numéro : la commande part sur Messenger<span id="stepWa"></span>.</p></li>
+        <li><span>3</span><h3>Reçois</h3><p>On te confirme la commande et on te livre. <span id="stepShip"></span></p></li>
+      </ol>
+    </section>
+
     <section class="brand" id="marque">
+      <img class="brand__gorilla" src="images/gorille-blanc.png" alt="" aria-hidden="true">
       <div class="wrap brand__in">
         <div class="brand__intro">
           <p class="eyebrow">La marque</p>
-          <h2>Né à La Marsa.<br>Fait pour l'effort.</h2>
-          <p>KONG Sports Wear habille celles et ceux qui s'entraînent pour de vrai : à la salle, sur la plage, en course ou en match. Des coupes qui suivent le mouvement et des tissus qui tiennent séance après séance.</p>
+          <h2>La force du gorille,<br>dans chaque série.</h2>
+          <p>KONG Sports Wear équipe celles et ceux qui s'entraînent lourd. De La Marsa à toute la Tunisie, on fait du matériel qui tient la charge, séance après séance.</p>
         </div>
         <div class="values">
           <article class="value">
             <span class="value__n">01</span>
-            <h3>Tissus techniques</h3>
-            <p>Respirants, stretch et à séchage rapide, pour rester au sec du premier au dernier set.</p>
+            <h3>Maintien solide</h3>
+            <p>Ceintures et genouillères pensées pour gainer et protéger sur les gros lifts.</p>
           </article>
           <article class="value">
             <span class="value__n">02</span>
-            <h3>Coupes athlétiques</h3>
-            <p>Des tailles XS à XXL, ajustées pour l'entraînement sans gêner les mouvements.</p>
+            <h3>Finitions soignées</h3>
+            <p>Doubles surpiqûres, patchs cousus et pochette KONG : du matériel fait pour durer.</p>
           </article>
           <article class="value">
             <span class="value__n">03</span>
-            <h3>Proche de vous</h3>
-            <p>Une équipe locale qui répond sur Messenger et vous conseille sur la bonne taille.</p>
+            <h3>Conseil de taille</h3>
+            <p>Un doute sur la taille de ta ceinture ? Écris-nous, on t'aide à choisir.</p>
           </article>
         </div>
       </div>
@@ -116,10 +144,11 @@
 
     <section class="contact wrap" id="contact">
       <div class="contact__card">
+        <img class="contact__logo" src="images/logo-kong-noir.png" alt="" aria-hidden="true" width="110" height="126">
         <div>
           <p class="eyebrow eyebrow--dark">Contact</p>
-          <h2>Une question sur une taille ?</h2>
-          <p class="muted">Écrivez-nous, on vous répond rapidement. Basés à <strong id="cityTxt">La Marsa, Tunis</strong>.</p>
+          <h2>Une question ?</h2>
+          <p class="muted">Écris-nous, on répond vite. Basés à <strong id="cityTxt">La Marsa, Tunis</strong>.</p>
         </div>
         <div class="contact__links" id="contactLinks"></div>
       </div>
@@ -128,7 +157,7 @@
 
   <footer class="footer">
     <div class="wrap footer__in">
-      <a href="#top" class="logo logo--footer"><span class="logo__mark">K</span><span class="logo__word">KONG</span></a>
+      <a href="#top" class="logo"><img src="images/logo-kong-horizontal-blanc.png" alt="KONG Sports Wear" width="100" height="40"></a>
       <p>© <span id="year"></span> KONG Sports Wear · La Marsa</p>
       <a id="fbFooter" href="https://www.facebook.com/kongsportswear" target="_blank" rel="noopener">Facebook</a>
     </div>
@@ -139,18 +168,22 @@
     <div class="modal__backdrop" data-close></div>
     <div class="modal__box" role="dialog" aria-modal="true" aria-labelledby="mTitle">
       <button class="icon-btn modal__x" data-close aria-label="Fermer">✕</button>
-      <div class="modal__media" id="mMedia"></div>
+      <div class="modal__gallery">
+        <div class="modal__media" id="mMedia"></div>
+        <div class="thumbs" id="mThumbs"></div>
+      </div>
       <div class="modal__body">
         <p class="eyebrow eyebrow--dark" id="mCat"></p>
         <h3 id="mTitle"></h3>
         <p class="price" id="mPrice"></p>
         <p class="muted" id="mDesc"></p>
+        <ul class="ticks ticks--dark" id="mDetails"></ul>
         <div class="opt" id="mColorsWrap">
-          <p class="opt__label">Couleur : <strong id="mColorName"></strong></p>
+          <p class="opt__label">Coloris : <strong id="mColorName"></strong></p>
           <div class="swatches" id="mColors"></div>
         </div>
         <div class="opt" id="mSizesWrap">
-          <p class="opt__label">Taille</p>
+          <p class="opt__label" id="mSizeLabel">Taille</p>
           <div class="sizes" id="mSizes"></div>
         </div>
         <div class="modal__actions" id="mActions"></div>
@@ -164,7 +197,7 @@
     <div class="drawer__backdrop" data-close-cart></div>
     <aside class="drawer__panel" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
       <div class="drawer__head">
-        <h3 id="cartTitle">Votre panier</h3>
+        <h3 id="cartTitle">Ton panier</h3>
         <button class="icon-btn" data-close-cart aria-label="Fermer le panier">✕</button>
       </div>
       <div class="drawer__items" id="cartItems"></div>
@@ -186,7 +219,6 @@
 
   <script src="assets/config.js"></script>
   <script src="assets/products.js"></script>
-  <script src="assets/garments.js"></script>
   <script src="assets/app.js"></script>
 </body>
 </html>

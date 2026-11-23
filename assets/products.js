@@ -1,105 +1,63 @@
 /* ============================================================
    Catalogue local (utilisé quand KONG_CONFIG.wooUrl est vide)
-   ⚠ Produits et prix d'exemple : à remplacer par les vrais articles.
-   - image : chemin d'une vraie photo (ex. "images/tee-noir.jpg").
-     Sans image, une illustration du vêtement est dessinée automatiquement.
-   - type  : tee | tank | hoodie | jacket | jogger | short | legging | bra | cap | bag
+   ⚠ Les PRIX sont indicatifs : à remplacer par les vrais tarifs.
+   - images : photos du produit (la 1re sert de vignette)
+   - colors : { n: nom, h: couleur 1, h2: couleur 2 (pastille bicolore), img: photo de ce coloris }
+   - sizes  : laisser [] pour une taille unique
+   - unit   : précision affichée après le prix (ex. "la paire")
+   - featured : true = mis en avant dans le bandeau « Pack » (hors grille)
    ============================================================ */
 window.KONG_PRODUCTS = [
   {
-    id: 101, sku: "KG-TEE-01", name: "T-shirt Training Dry-Fit", cat: "homme", type: "tee",
-    price: 49, colors: [{ n: "Noir", h: "#16171a" }, { n: "Blanc", h: "#f2f2ee" }, { n: "Volt", h: "#c8f31d" }],
-    sizes: ["S", "M", "L", "XL", "XXL"], badge: "Best-seller",
-    desc: "Tissu respirant à séchage rapide, coupe athlétique. Pour la salle, le running et tous les jours."
-  },
-  {
-    id: 102, sku: "KG-HOOD-01", name: "Hoodie Heavy Kong", cat: "homme", type: "hoodie",
-    price: 119, oldPrice: 139, colors: [{ n: "Gris chiné", h: "#8b8e94" }, { n: "Noir", h: "#16171a" }],
-    sizes: ["S", "M", "L", "XL"], badge: "Promo",
-    desc: "Molleton épais et doux, capuche doublée, poche kangourou. Le sweat de l'échauffement."
-  },
-  {
-    id: 103, sku: "KG-JOG-01", name: "Jogging Fuselé Flex", cat: "homme", type: "jogger",
-    price: 89, colors: [{ n: "Noir", h: "#16171a" }, { n: "Kaki", h: "#59614a" }],
-    sizes: ["S", "M", "L", "XL", "XXL"],
-    desc: "Coupe fuselée, taille élastique avec cordon, chevilles resserrées et poches zippées."
-  },
-  {
-    id: 104, sku: "KG-SHO-01", name: "Short Running 2-en-1", cat: "homme", type: "short",
-    price: 59, colors: [{ n: "Noir", h: "#16171a" }, { n: "Bleu nuit", h: "#1d2a44" }],
+    id: 1, sku: "KG-BELT", name: "Ceinture de musculation KONG", cat: "ceintures",
+    price: 129, badge: "Best-seller",
+    images: ["images/ceintures-trio.jpg", "images/ceinture-noire-salle.jpg"],
+    colors: [
+      { n: "Noir · coutures blanches", h: "#111", h2: "#f2f2f2", img: "images/ceinture-noire-salle.jpg" },
+      { n: "Blanc & or", h: "#f4f3ef", h2: "#c9a13b", img: "images/ceintures-trio.jpg" },
+      { n: "Noir · coutures jaunes", h: "#111", h2: "#e8c21d", img: "images/ceintures-trio.jpg" }
+    ],
     sizes: ["S", "M", "L", "XL"],
-    desc: "Short léger avec cuissard intégré et poche pour téléphone. Liberté totale de mouvement."
+    desc: "Ceinture large pour gainer le tronc et protéger le bas du dos sur les squats, soulevés de terre et développés.",
+    details: ["Doubles surpiqûres sur toute la longueur", "Logo KONG imprimé", "3 coloris, tailles S à XL"]
   },
   {
-    id: 105, sku: "KG-TANK-01", name: "Débardeur Gym Stringer", cat: "homme", type: "tank",
-    price: 39, colors: [{ n: "Noir", h: "#16171a" }, { n: "Rouge", h: "#c4302b" }],
-    sizes: ["S", "M", "L", "XL"], badge: "Nouveau",
-    desc: "Emmanchures larges pour les séances d'épaules et de dos. Coton stretch."
+    id: 2, sku: "KG-KNEE", name: "Genouillères de compression (Knee Wraps)", cat: "genouilleres",
+    price: 59, unit: "la paire", badge: "Nouveau",
+    images: ["images/genouilleres-noir-blanc.jpg", "images/genouilleres-noir-bleu.jpg"],
+    colors: [
+      { n: "Noir & blanc", h: "#111", h2: "#f2f2f2", img: "images/genouilleres-noir-blanc.jpg" },
+      { n: "Noir & bleu", h: "#111", h2: "#2aa8e0", img: "images/genouilleres-noir-bleu.jpg" }
+    ],
+    sizes: [],
+    desc: "Bandes élastiques à enrouler autour du genou pour un maintien maximal pendant les séances les plus lourdes.",
+    details: ["Vendues par paire", "Fermeture scratch avec patch KONG", "Livrées dans leur pochette KONG"]
   },
   {
-    id: 106, sku: "KG-JKT-01", name: "Veste Survêtement Track", cat: "homme", type: "jacket",
-    price: 129, colors: [{ n: "Noir / Volt", h: "#16171a" }, { n: "Marine", h: "#1d2a44" }],
-    sizes: ["S", "M", "L", "XL"],
-    desc: "Veste zippée col montant, bandes contrastées, poches zippées. Assortie au jogging Flex."
+    id: 3, sku: "KG-STRAP", name: "Sangles de tirage (Lifting Straps)", cat: "sangles",
+    price: 35, unit: "la paire",
+    images: ["images/sangles-tirage.jpg"],
+    colors: [{ n: "Noir", h: "#111" }],
+    sizes: [],
+    desc: "Sécurisent la prise sur les soulevés de terre, tirages et rowings, quand la poigne lâche avant les muscles.",
+    details: ["Vendues par paire", "Sangle tissée noire", "Patch KONG cousu"]
   },
   {
-    id: 107, sku: "KG-TEE-03", name: "T-shirt Oversize Kong", cat: "homme", type: "tee",
-    price: 55, colors: [{ n: "Crème", h: "#e9e2d0" }, { n: "Noir", h: "#16171a" }],
-    sizes: ["S", "M", "L", "XL", "XXL"],
-    desc: "Coupe ample, épaules tombantes, coton épais. Le t-shirt pour l'après-séance."
+    id: 4, sku: "KG-SHAKER", name: "Shaker KONG", cat: "accessoires",
+    price: 29,
+    images: ["images/shaker-kong.jpg", "images/sangles-tirage.jpg"],
+    colors: [{ n: "Noir mat", h: "#151515" }],
+    sizes: [],
+    desc: "Shaker noir mat avec bouchon à clapet et logo KONG, pour vos protéines avant ou après la séance.",
+    details: ["Bouchon à clapet", "Logo KONG blanc"]
   },
   {
-    id: 201, sku: "KG-LEG-01", name: "Legging Taille Haute Sculpt", cat: "femme", type: "legging",
-    price: 79, colors: [{ n: "Noir", h: "#16171a" }, { n: "Bordeaux", h: "#6d2233" }, { n: "Sauge", h: "#8fa58b" }],
-    sizes: ["XS", "S", "M", "L", "XL"], badge: "Best-seller",
-    desc: "Taille haute gainante, tissu opaque squat-proof, poche latérale pour le téléphone."
-  },
-  {
-    id: 202, sku: "KG-BRA-01", name: "Brassière Maintien Moyen", cat: "femme", type: "bra",
-    price: 55, colors: [{ n: "Noir", h: "#16171a" }, { n: "Sauge", h: "#8fa58b" }, { n: "Rose poudré", h: "#d9a5a0" }],
-    sizes: ["XS", "S", "M", "L"],
-    desc: "Bonnets amovibles, dos nageur, maintien moyen pour le fitness et le yoga."
-  },
-  {
-    id: 203, sku: "KG-TEE-02", name: "T-shirt Crop Femme", cat: "femme", type: "tee",
-    price: 45, colors: [{ n: "Blanc", h: "#f2f2ee" }, { n: "Noir", h: "#16171a" }],
-    sizes: ["XS", "S", "M", "L"], badge: "Nouveau",
-    desc: "Coupe courte et ample, tissu fluide. Idéal par-dessus une brassière."
-  },
-  {
-    id: 204, sku: "KG-HOOD-02", name: "Hoodie Oversize Femme", cat: "femme", type: "hoodie",
-    price: 115, colors: [{ n: "Lilas", h: "#a99ac4" }, { n: "Crème", h: "#e9e2d0" }],
-    sizes: ["XS", "S", "M", "L"],
-    desc: "Coupe oversize, molleton doux, épaules tombantes. Après la séance comme en ville."
-  },
-  {
-    id: 205, sku: "KG-SHO-02", name: "Short Cycliste", cat: "femme", type: "short",
-    price: 49, oldPrice: 59, colors: [{ n: "Noir", h: "#16171a" }, { n: "Bordeaux", h: "#6d2233" }],
-    sizes: ["XS", "S", "M", "L"], badge: "Promo",
-    desc: "Le même tissu sculptant que le legging, version courte pour le vélo et le HIIT."
-  },
-  {
-    id: 206, sku: "KG-TANK-02", name: "Débardeur Femme Racer", cat: "femme", type: "tank",
-    price: 39, colors: [{ n: "Blanc", h: "#f2f2ee" }, { n: "Sauge", h: "#8fa58b" }],
-    sizes: ["XS", "S", "M", "L"],
-    desc: "Dos nageur, tissu léger et respirant. À porter seul ou sur une brassière."
-  },
-  {
-    id: 207, sku: "KG-JOG-02", name: "Jogging Femme Wide", cat: "femme", type: "jogger",
-    price: 85, colors: [{ n: "Gris chiné", h: "#8b8e94" }, { n: "Noir", h: "#16171a" }],
-    sizes: ["XS", "S", "M", "L", "XL"], badge: "Nouveau",
-    desc: "Molleton doux, taille haute élastique et coupe large. Confort total, du studio au café."
-  },
-  {
-    id: 301, sku: "KG-CAP-01", name: "Casquette Kong Classic", cat: "accessoires", type: "cap",
-    price: 35, colors: [{ n: "Noir", h: "#16171a" }, { n: "Blanc", h: "#f2f2ee" }],
-    sizes: ["Unique"],
-    desc: "Visière incurvée, logo brodé, réglage arrière. Taille unique."
-  },
-  {
-    id: 302, sku: "KG-BAG-01", name: "Sac de Sport Duffel", cat: "accessoires", type: "bag",
-    price: 95, colors: [{ n: "Noir", h: "#16171a" }],
-    sizes: ["Unique"],
-    desc: "Compartiment chaussures séparé, bandoulière réglable, tissu déperlant. 35 litres."
+    id: 10, sku: "KG-PACK", name: "Pack Force KONG", cat: "packs", featured: true,
+    price: 199, oldPrice: 223, badge: "Pack",
+    images: ["images/ceintures-trio.jpg", "images/genouilleres-noir-blanc.jpg", "images/sangles-tirage.jpg"],
+    colors: [],
+    sizes: ["S", "M", "L", "XL"], sizeLabel: "Taille de la ceinture",
+    desc: "La ceinture, les genouillères et les sangles réunies pour vos séances les plus lourdes. Précisez vos coloris dans le message de commande.",
+    details: ["1 ceinture de musculation", "1 paire de genouillères", "1 paire de sangles de tirage"]
   }
 ];
