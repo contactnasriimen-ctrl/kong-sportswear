@@ -1,0 +1,156 @@
+﻿ID,Type,SKU,Name,Published,Short description,Regular price,Sale price,Categories,Tags,In stock?,Images,Parent,Attribute 1 name,Attribute 1 value(s),Attribute 1 visible,Attribute 1 global,Attribute 2 name,Attribute 2 value(s),Attribute 2 visible,Attribute 2 global
+,variable,KG-TEE-01,T-shirt Training Dry-Fit,1,"Tissu respirant à séchage rapide, coupe athlétique. Pour la salle, le running et tous les jours.",,,Homme,Best-seller,1,,,Taille,"S, M, L, XL, XXL",1,1,Couleur,"Noir, Blanc, Volt",1,1
+,variation,KG-TEE-01-NOIR-S,"T-shirt Training Dry-Fit - Noir, S",1,,49,,,,1,,KG-TEE-01,Taille,S,,1,Couleur,Noir,,1
+,variation,KG-TEE-01-NOIR-M,"T-shirt Training Dry-Fit - Noir, M",1,,49,,,,1,,KG-TEE-01,Taille,M,,1,Couleur,Noir,,1
+,variation,KG-TEE-01-NOIR-L,"T-shirt Training Dry-Fit - Noir, L",1,,49,,,,1,,KG-TEE-01,Taille,L,,1,Couleur,Noir,,1
+,variation,KG-TEE-01-NOIR-XL,"T-shirt Training Dry-Fit - Noir, XL",1,,49,,,,1,,KG-TEE-01,Taille,XL,,1,Couleur,Noir,,1
+,variation,KG-TEE-01-NOIR-XXL,"T-shirt Training Dry-Fit - Noir, XXL",1,,49,,,,1,,KG-TEE-01,Taille,XXL,,1,Couleur,Noir,,1
+,variation,KG-TEE-01-BLAN-S,"T-shirt Training Dry-Fit - Blanc, S",1,,49,,,,1,,KG-TEE-01,Taille,S,,1,Couleur,Blanc,,1
+,variation,KG-TEE-01-BLAN-M,"T-shirt Training Dry-Fit - Blanc, M",1,,49,,,,1,,KG-TEE-01,Taille,M,,1,Couleur,Blanc,,1
+,variation,KG-TEE-01-BLAN-L,"T-shirt Training Dry-Fit - Blanc, L",1,,49,,,,1,,KG-TEE-01,Taille,L,,1,Couleur,Blanc,,1
+,variation,KG-TEE-01-BLAN-XL,"T-shirt Training Dry-Fit - Blanc, XL",1,,49,,,,1,,KG-TEE-01,Taille,XL,,1,Couleur,Blanc,,1
+,variation,KG-TEE-01-BLAN-XXL,"T-shirt Training Dry-Fit - Blanc, XXL",1,,49,,,,1,,KG-TEE-01,Taille,XXL,,1,Couleur,Blanc,,1
+,variation,KG-TEE-01-VOLT-S,"T-shirt Training Dry-Fit - Volt, S",1,,49,,,,1,,KG-TEE-01,Taille,S,,1,Couleur,Volt,,1
+,variation,KG-TEE-01-VOLT-M,"T-shirt Training Dry-Fit - Volt, M",1,,49,,,,1,,KG-TEE-01,Taille,M,,1,Couleur,Volt,,1
+,variation,KG-TEE-01-VOLT-L,"T-shirt Training Dry-Fit - Volt, L",1,,49,,,,1,,KG-TEE-01,Taille,L,,1,Couleur,Volt,,1
+,variation,KG-TEE-01-VOLT-XL,"T-shirt Training Dry-Fit - Volt, XL",1,,49,,,,1,,KG-TEE-01,Taille,XL,,1,Couleur,Volt,,1
+,variation,KG-TEE-01-VOLT-XXL,"T-shirt Training Dry-Fit - Volt, XXL",1,,49,,,,1,,KG-TEE-01,Taille,XXL,,1,Couleur,Volt,,1
+,variable,KG-HOOD-01,Hoodie Heavy Kong,1,"Molleton épais et doux, capuche doublée, poche kangourou. Le sweat de l'échauffement.",,,Homme,Promo,1,,,Taille,"S, M, L, XL",1,1,Couleur,"Gris chiné, Noir",1,1
+,variation,KG-HOOD-01-GRIS-S,"Hoodie Heavy Kong - Gris chiné, S",1,,139,119,,,1,,KG-HOOD-01,Taille,S,,1,Couleur,Gris chiné,,1
+,variation,KG-HOOD-01-GRIS-M,"Hoodie Heavy Kong - Gris chiné, M",1,,139,119,,,1,,KG-HOOD-01,Taille,M,,1,Couleur,Gris chiné,,1
+,variation,KG-HOOD-01-GRIS-L,"Hoodie Heavy Kong - Gris chiné, L",1,,139,119,,,1,,KG-HOOD-01,Taille,L,,1,Couleur,Gris chiné,,1
+,variation,KG-HOOD-01-GRIS-XL,"Hoodie Heavy Kong - Gris chiné, XL",1,,139,119,,,1,,KG-HOOD-01,Taille,XL,,1,Couleur,Gris chiné,,1
+,variation,KG-HOOD-01-NOIR-S,"Hoodie Heavy Kong - Noir, S",1,,139,119,,,1,,KG-HOOD-01,Taille,S,,1,Couleur,Noir,,1
+,variation,KG-HOOD-01-NOIR-M,"Hoodie Heavy Kong - Noir, M",1,,139,119,,,1,,KG-HOOD-01,Taille,M,,1,Couleur,Noir,,1
+,variation,KG-HOOD-01-NOIR-L,"Hoodie Heavy Kong - Noir, L",1,,139,119,,,1,,KG-HOOD-01,Taille,L,,1,Couleur,Noir,,1
+,variation,KG-HOOD-01-NOIR-XL,"Hoodie Heavy Kong - Noir, XL",1,,139,119,,,1,,KG-HOOD-01,Taille,XL,,1,Couleur,Noir,,1
+,variable,KG-JOG-01,Jogging Fuselé Flex,1,"Coupe fuselée, taille élastique avec cordon, chevilles resserrées et poches zippées.",,,Homme,,1,,,Taille,"S, M, L, XL, XXL",1,1,Couleur,"Noir, Kaki",1,1
+,variation,KG-JOG-01-NOIR-S,"Jogging Fuselé Flex - Noir, S",1,,89,,,,1,,KG-JOG-01,Taille,S,,1,Couleur,Noir,,1
+,variation,KG-JOG-01-NOIR-M,"Jogging Fuselé Flex - Noir, M",1,,89,,,,1,,KG-JOG-01,Taille,M,,1,Couleur,Noir,,1
+,variation,KG-JOG-01-NOIR-L,"Jogging Fuselé Flex - Noir, L",1,,89,,,,1,,KG-JOG-01,Taille,L,,1,Couleur,Noir,,1
+,variation,KG-JOG-01-NOIR-XL,"Jogging Fuselé Flex - Noir, XL",1,,89,,,,1,,KG-JOG-01,Taille,XL,,1,Couleur,Noir,,1
+,variation,KG-JOG-01-NOIR-XXL,"Jogging Fuselé Flex - Noir, XXL",1,,89,,,,1,,KG-JOG-01,Taille,XXL,,1,Couleur,Noir,,1
+,variation,KG-JOG-01-KAKI-S,"Jogging Fuselé Flex - Kaki, S",1,,89,,,,1,,KG-JOG-01,Taille,S,,1,Couleur,Kaki,,1
+,variation,KG-JOG-01-KAKI-M,"Jogging Fuselé Flex - Kaki, M",1,,89,,,,1,,KG-JOG-01,Taille,M,,1,Couleur,Kaki,,1
+,variation,KG-JOG-01-KAKI-L,"Jogging Fuselé Flex - Kaki, L",1,,89,,,,1,,KG-JOG-01,Taille,L,,1,Couleur,Kaki,,1
+,variation,KG-JOG-01-KAKI-XL,"Jogging Fuselé Flex - Kaki, XL",1,,89,,,,1,,KG-JOG-01,Taille,XL,,1,Couleur,Kaki,,1
+,variation,KG-JOG-01-KAKI-XXL,"Jogging Fuselé Flex - Kaki, XXL",1,,89,,,,1,,KG-JOG-01,Taille,XXL,,1,Couleur,Kaki,,1
+,variable,KG-SHO-01,Short Running 2-en-1,1,Short léger avec cuissard intégré et poche pour téléphone. Liberté totale de mouvement.,,,Homme,,1,,,Taille,"S, M, L, XL",1,1,Couleur,"Noir, Bleu nuit",1,1
+,variation,KG-SHO-01-NOIR-S,"Short Running 2-en-1 - Noir, S",1,,59,,,,1,,KG-SHO-01,Taille,S,,1,Couleur,Noir,,1
+,variation,KG-SHO-01-NOIR-M,"Short Running 2-en-1 - Noir, M",1,,59,,,,1,,KG-SHO-01,Taille,M,,1,Couleur,Noir,,1
+,variation,KG-SHO-01-NOIR-L,"Short Running 2-en-1 - Noir, L",1,,59,,,,1,,KG-SHO-01,Taille,L,,1,Couleur,Noir,,1
+,variation,KG-SHO-01-NOIR-XL,"Short Running 2-en-1 - Noir, XL",1,,59,,,,1,,KG-SHO-01,Taille,XL,,1,Couleur,Noir,,1
+,variation,KG-SHO-01-BLEU-S,"Short Running 2-en-1 - Bleu nuit, S",1,,59,,,,1,,KG-SHO-01,Taille,S,,1,Couleur,Bleu nuit,,1
+,variation,KG-SHO-01-BLEU-M,"Short Running 2-en-1 - Bleu nuit, M",1,,59,,,,1,,KG-SHO-01,Taille,M,,1,Couleur,Bleu nuit,,1
+,variation,KG-SHO-01-BLEU-L,"Short Running 2-en-1 - Bleu nuit, L",1,,59,,,,1,,KG-SHO-01,Taille,L,,1,Couleur,Bleu nuit,,1
+,variation,KG-SHO-01-BLEU-XL,"Short Running 2-en-1 - Bleu nuit, XL",1,,59,,,,1,,KG-SHO-01,Taille,XL,,1,Couleur,Bleu nuit,,1
+,variable,KG-TANK-01,Débardeur Gym Stringer,1,Emmanchures larges pour les séances d'épaules et de dos. Coton stretch.,,,Homme,Nouveau,1,,,Taille,"S, M, L, XL",1,1,Couleur,"Noir, Rouge",1,1
+,variation,KG-TANK-01-NOIR-S,"Débardeur Gym Stringer - Noir, S",1,,39,,,,1,,KG-TANK-01,Taille,S,,1,Couleur,Noir,,1
+,variation,KG-TANK-01-NOIR-M,"Débardeur Gym Stringer - Noir, M",1,,39,,,,1,,KG-TANK-01,Taille,M,,1,Couleur,Noir,,1
+,variation,KG-TANK-01-NOIR-L,"Débardeur Gym Stringer - Noir, L",1,,39,,,,1,,KG-TANK-01,Taille,L,,1,Couleur,Noir,,1
+,variation,KG-TANK-01-NOIR-XL,"Débardeur Gym Stringer - Noir, XL",1,,39,,,,1,,KG-TANK-01,Taille,XL,,1,Couleur,Noir,,1
+,variation,KG-TANK-01-ROUG-S,"Débardeur Gym Stringer - Rouge, S",1,,39,,,,1,,KG-TANK-01,Taille,S,,1,Couleur,Rouge,,1
+,variation,KG-TANK-01-ROUG-M,"Débardeur Gym Stringer - Rouge, M",1,,39,,,,1,,KG-TANK-01,Taille,M,,1,Couleur,Rouge,,1
+,variation,KG-TANK-01-ROUG-L,"Débardeur Gym Stringer - Rouge, L",1,,39,,,,1,,KG-TANK-01,Taille,L,,1,Couleur,Rouge,,1
+,variation,KG-TANK-01-ROUG-XL,"Débardeur Gym Stringer - Rouge, XL",1,,39,,,,1,,KG-TANK-01,Taille,XL,,1,Couleur,Rouge,,1
+,variable,KG-JKT-01,Veste Survêtement Track,1,"Veste zippée col montant, bandes contrastées, poches zippées. Assortie au jogging Flex.",,,Homme,,1,,,Taille,"S, M, L, XL",1,1,Couleur,"Noir / Volt, Marine",1,1
+,variation,KG-JKT-01-NOIR-S,"Veste Survêtement Track - Noir / Volt, S",1,,129,,,,1,,KG-JKT-01,Taille,S,,1,Couleur,Noir / Volt,,1
+,variation,KG-JKT-01-NOIR-M,"Veste Survêtement Track - Noir / Volt, M",1,,129,,,,1,,KG-JKT-01,Taille,M,,1,Couleur,Noir / Volt,,1
+,variation,KG-JKT-01-NOIR-L,"Veste Survêtement Track - Noir / Volt, L",1,,129,,,,1,,KG-JKT-01,Taille,L,,1,Couleur,Noir / Volt,,1
+,variation,KG-JKT-01-NOIR-XL,"Veste Survêtement Track - Noir / Volt, XL",1,,129,,,,1,,KG-JKT-01,Taille,XL,,1,Couleur,Noir / Volt,,1
+,variation,KG-JKT-01-MARI-S,"Veste Survêtement Track - Marine, S",1,,129,,,,1,,KG-JKT-01,Taille,S,,1,Couleur,Marine,,1
+,variation,KG-JKT-01-MARI-M,"Veste Survêtement Track - Marine, M",1,,129,,,,1,,KG-JKT-01,Taille,M,,1,Couleur,Marine,,1
+,variation,KG-JKT-01-MARI-L,"Veste Survêtement Track - Marine, L",1,,129,,,,1,,KG-JKT-01,Taille,L,,1,Couleur,Marine,,1
+,variation,KG-JKT-01-MARI-XL,"Veste Survêtement Track - Marine, XL",1,,129,,,,1,,KG-JKT-01,Taille,XL,,1,Couleur,Marine,,1
+,variable,KG-TEE-03,T-shirt Oversize Kong,1,"Coupe ample, épaules tombantes, coton épais. Le t-shirt pour l'après-séance.",,,Homme,,1,,,Taille,"S, M, L, XL, XXL",1,1,Couleur,"Crème, Noir",1,1
+,variation,KG-TEE-03-CREM-S,"T-shirt Oversize Kong - Crème, S",1,,55,,,,1,,KG-TEE-03,Taille,S,,1,Couleur,Crème,,1
+,variation,KG-TEE-03-CREM-M,"T-shirt Oversize Kong - Crème, M",1,,55,,,,1,,KG-TEE-03,Taille,M,,1,Couleur,Crème,,1
+,variation,KG-TEE-03-CREM-L,"T-shirt Oversize Kong - Crème, L",1,,55,,,,1,,KG-TEE-03,Taille,L,,1,Couleur,Crème,,1
+,variation,KG-TEE-03-CREM-XL,"T-shirt Oversize Kong - Crème, XL",1,,55,,,,1,,KG-TEE-03,Taille,XL,,1,Couleur,Crème,,1
+,variation,KG-TEE-03-CREM-XXL,"T-shirt Oversize Kong - Crème, XXL",1,,55,,,,1,,KG-TEE-03,Taille,XXL,,1,Couleur,Crème,,1
+,variation,KG-TEE-03-NOIR-S,"T-shirt Oversize Kong - Noir, S",1,,55,,,,1,,KG-TEE-03,Taille,S,,1,Couleur,Noir,,1
+,variation,KG-TEE-03-NOIR-M,"T-shirt Oversize Kong - Noir, M",1,,55,,,,1,,KG-TEE-03,Taille,M,,1,Couleur,Noir,,1
+,variation,KG-TEE-03-NOIR-L,"T-shirt Oversize Kong - Noir, L",1,,55,,,,1,,KG-TEE-03,Taille,L,,1,Couleur,Noir,,1
+,variation,KG-TEE-03-NOIR-XL,"T-shirt Oversize Kong - Noir, XL",1,,55,,,,1,,KG-TEE-03,Taille,XL,,1,Couleur,Noir,,1
+,variation,KG-TEE-03-NOIR-XXL,"T-shirt Oversize Kong - Noir, XXL",1,,55,,,,1,,KG-TEE-03,Taille,XXL,,1,Couleur,Noir,,1
+,variable,KG-LEG-01,Legging Taille Haute Sculpt,1,"Taille haute gainante, tissu opaque squat-proof, poche latérale pour le téléphone.",,,Femme,Best-seller,1,,,Taille,"XS, S, M, L, XL",1,1,Couleur,"Noir, Bordeaux, Sauge",1,1
+,variation,KG-LEG-01-NOIR-XS,"Legging Taille Haute Sculpt - Noir, XS",1,,79,,,,1,,KG-LEG-01,Taille,XS,,1,Couleur,Noir,,1
+,variation,KG-LEG-01-NOIR-S,"Legging Taille Haute Sculpt - Noir, S",1,,79,,,,1,,KG-LEG-01,Taille,S,,1,Couleur,Noir,,1
+,variation,KG-LEG-01-NOIR-M,"Legging Taille Haute Sculpt - Noir, M",1,,79,,,,1,,KG-LEG-01,Taille,M,,1,Couleur,Noir,,1
+,variation,KG-LEG-01-NOIR-L,"Legging Taille Haute Sculpt - Noir, L",1,,79,,,,1,,KG-LEG-01,Taille,L,,1,Couleur,Noir,,1
+,variation,KG-LEG-01-NOIR-XL,"Legging Taille Haute Sculpt - Noir, XL",1,,79,,,,1,,KG-LEG-01,Taille,XL,,1,Couleur,Noir,,1
+,variation,KG-LEG-01-BORD-XS,"Legging Taille Haute Sculpt - Bordeaux, XS",1,,79,,,,1,,KG-LEG-01,Taille,XS,,1,Couleur,Bordeaux,,1
+,variation,KG-LEG-01-BORD-S,"Legging Taille Haute Sculpt - Bordeaux, S",1,,79,,,,1,,KG-LEG-01,Taille,S,,1,Couleur,Bordeaux,,1
+,variation,KG-LEG-01-BORD-M,"Legging Taille Haute Sculpt - Bordeaux, M",1,,79,,,,1,,KG-LEG-01,Taille,M,,1,Couleur,Bordeaux,,1
+,variation,KG-LEG-01-BORD-L,"Legging Taille Haute Sculpt - Bordeaux, L",1,,79,,,,1,,KG-LEG-01,Taille,L,,1,Couleur,Bordeaux,,1
+,variation,KG-LEG-01-BORD-XL,"Legging Taille Haute Sculpt - Bordeaux, XL",1,,79,,,,1,,KG-LEG-01,Taille,XL,,1,Couleur,Bordeaux,,1
+,variation,KG-LEG-01-SAUG-XS,"Legging Taille Haute Sculpt - Sauge, XS",1,,79,,,,1,,KG-LEG-01,Taille,XS,,1,Couleur,Sauge,,1
+,variation,KG-LEG-01-SAUG-S,"Legging Taille Haute Sculpt - Sauge, S",1,,79,,,,1,,KG-LEG-01,Taille,S,,1,Couleur,Sauge,,1
+,variation,KG-LEG-01-SAUG-M,"Legging Taille Haute Sculpt - Sauge, M",1,,79,,,,1,,KG-LEG-01,Taille,M,,1,Couleur,Sauge,,1
+,variation,KG-LEG-01-SAUG-L,"Legging Taille Haute Sculpt - Sauge, L",1,,79,,,,1,,KG-LEG-01,Taille,L,,1,Couleur,Sauge,,1
+,variation,KG-LEG-01-SAUG-XL,"Legging Taille Haute Sculpt - Sauge, XL",1,,79,,,,1,,KG-LEG-01,Taille,XL,,1,Couleur,Sauge,,1
+,variable,KG-BRA-01,Brassière Maintien Moyen,1,"Bonnets amovibles, dos nageur, maintien moyen pour le fitness et le yoga.",,,Femme,,1,,,Taille,"XS, S, M, L",1,1,Couleur,"Noir, Sauge, Rose poudré",1,1
+,variation,KG-BRA-01-NOIR-XS,"Brassière Maintien Moyen - Noir, XS",1,,55,,,,1,,KG-BRA-01,Taille,XS,,1,Couleur,Noir,,1
+,variation,KG-BRA-01-NOIR-S,"Brassière Maintien Moyen - Noir, S",1,,55,,,,1,,KG-BRA-01,Taille,S,,1,Couleur,Noir,,1
+,variation,KG-BRA-01-NOIR-M,"Brassière Maintien Moyen - Noir, M",1,,55,,,,1,,KG-BRA-01,Taille,M,,1,Couleur,Noir,,1
+,variation,KG-BRA-01-NOIR-L,"Brassière Maintien Moyen - Noir, L",1,,55,,,,1,,KG-BRA-01,Taille,L,,1,Couleur,Noir,,1
+,variation,KG-BRA-01-SAUG-XS,"Brassière Maintien Moyen - Sauge, XS",1,,55,,,,1,,KG-BRA-01,Taille,XS,,1,Couleur,Sauge,,1
+,variation,KG-BRA-01-SAUG-S,"Brassière Maintien Moyen - Sauge, S",1,,55,,,,1,,KG-BRA-01,Taille,S,,1,Couleur,Sauge,,1
+,variation,KG-BRA-01-SAUG-M,"Brassière Maintien Moyen - Sauge, M",1,,55,,,,1,,KG-BRA-01,Taille,M,,1,Couleur,Sauge,,1
+,variation,KG-BRA-01-SAUG-L,"Brassière Maintien Moyen - Sauge, L",1,,55,,,,1,,KG-BRA-01,Taille,L,,1,Couleur,Sauge,,1
+,variation,KG-BRA-01-ROSE-XS,"Brassière Maintien Moyen - Rose poudré, XS",1,,55,,,,1,,KG-BRA-01,Taille,XS,,1,Couleur,Rose poudré,,1
+,variation,KG-BRA-01-ROSE-S,"Brassière Maintien Moyen - Rose poudré, S",1,,55,,,,1,,KG-BRA-01,Taille,S,,1,Couleur,Rose poudré,,1
+,variation,KG-BRA-01-ROSE-M,"Brassière Maintien Moyen - Rose poudré, M",1,,55,,,,1,,KG-BRA-01,Taille,M,,1,Couleur,Rose poudré,,1
+,variation,KG-BRA-01-ROSE-L,"Brassière Maintien Moyen - Rose poudré, L",1,,55,,,,1,,KG-BRA-01,Taille,L,,1,Couleur,Rose poudré,,1
+,variable,KG-TEE-02,T-shirt Crop Femme,1,"Coupe courte et ample, tissu fluide. Idéal par-dessus une brassière.",,,Femme,Nouveau,1,,,Taille,"XS, S, M, L",1,1,Couleur,"Blanc, Noir",1,1
+,variation,KG-TEE-02-BLAN-XS,"T-shirt Crop Femme - Blanc, XS",1,,45,,,,1,,KG-TEE-02,Taille,XS,,1,Couleur,Blanc,,1
+,variation,KG-TEE-02-BLAN-S,"T-shirt Crop Femme - Blanc, S",1,,45,,,,1,,KG-TEE-02,Taille,S,,1,Couleur,Blanc,,1
+,variation,KG-TEE-02-BLAN-M,"T-shirt Crop Femme - Blanc, M",1,,45,,,,1,,KG-TEE-02,Taille,M,,1,Couleur,Blanc,,1
+,variation,KG-TEE-02-BLAN-L,"T-shirt Crop Femme - Blanc, L",1,,45,,,,1,,KG-TEE-02,Taille,L,,1,Couleur,Blanc,,1
+,variation,KG-TEE-02-NOIR-XS,"T-shirt Crop Femme - Noir, XS",1,,45,,,,1,,KG-TEE-02,Taille,XS,,1,Couleur,Noir,,1
+,variation,KG-TEE-02-NOIR-S,"T-shirt Crop Femme - Noir, S",1,,45,,,,1,,KG-TEE-02,Taille,S,,1,Couleur,Noir,,1
+,variation,KG-TEE-02-NOIR-M,"T-shirt Crop Femme - Noir, M",1,,45,,,,1,,KG-TEE-02,Taille,M,,1,Couleur,Noir,,1
+,variation,KG-TEE-02-NOIR-L,"T-shirt Crop Femme - Noir, L",1,,45,,,,1,,KG-TEE-02,Taille,L,,1,Couleur,Noir,,1
+,variable,KG-HOOD-02,Hoodie Oversize Femme,1,"Coupe oversize, molleton doux, épaules tombantes. Après la séance comme en ville.",,,Femme,,1,,,Taille,"XS, S, M, L",1,1,Couleur,"Lilas, Crème",1,1
+,variation,KG-HOOD-02-LILA-XS,"Hoodie Oversize Femme - Lilas, XS",1,,115,,,,1,,KG-HOOD-02,Taille,XS,,1,Couleur,Lilas,,1
+,variation,KG-HOOD-02-LILA-S,"Hoodie Oversize Femme - Lilas, S",1,,115,,,,1,,KG-HOOD-02,Taille,S,,1,Couleur,Lilas,,1
+,variation,KG-HOOD-02-LILA-M,"Hoodie Oversize Femme - Lilas, M",1,,115,,,,1,,KG-HOOD-02,Taille,M,,1,Couleur,Lilas,,1
+,variation,KG-HOOD-02-LILA-L,"Hoodie Oversize Femme - Lilas, L",1,,115,,,,1,,KG-HOOD-02,Taille,L,,1,Couleur,Lilas,,1
+,variation,KG-HOOD-02-CREM-XS,"Hoodie Oversize Femme - Crème, XS",1,,115,,,,1,,KG-HOOD-02,Taille,XS,,1,Couleur,Crème,,1
+,variation,KG-HOOD-02-CREM-S,"Hoodie Oversize Femme - Crème, S",1,,115,,,,1,,KG-HOOD-02,Taille,S,,1,Couleur,Crème,,1
+,variation,KG-HOOD-02-CREM-M,"Hoodie Oversize Femme - Crème, M",1,,115,,,,1,,KG-HOOD-02,Taille,M,,1,Couleur,Crème,,1
+,variation,KG-HOOD-02-CREM-L,"Hoodie Oversize Femme - Crème, L",1,,115,,,,1,,KG-HOOD-02,Taille,L,,1,Couleur,Crème,,1
+,variable,KG-SHO-02,Short Cycliste,1,"Le même tissu sculptant que le legging, version courte pour le vélo et le HIIT.",,,Femme,Promo,1,,,Taille,"XS, S, M, L",1,1,Couleur,"Noir, Bordeaux",1,1
+,variation,KG-SHO-02-NOIR-XS,"Short Cycliste - Noir, XS",1,,59,49,,,1,,KG-SHO-02,Taille,XS,,1,Couleur,Noir,,1
+,variation,KG-SHO-02-NOIR-S,"Short Cycliste - Noir, S",1,,59,49,,,1,,KG-SHO-02,Taille,S,,1,Couleur,Noir,,1
+,variation,KG-SHO-02-NOIR-M,"Short Cycliste - Noir, M",1,,59,49,,,1,,KG-SHO-02,Taille,M,,1,Couleur,Noir,,1
+,variation,KG-SHO-02-NOIR-L,"Short Cycliste - Noir, L",1,,59,49,,,1,,KG-SHO-02,Taille,L,,1,Couleur,Noir,,1
+,variation,KG-SHO-02-BORD-XS,"Short Cycliste - Bordeaux, XS",1,,59,49,,,1,,KG-SHO-02,Taille,XS,,1,Couleur,Bordeaux,,1
+,variation,KG-SHO-02-BORD-S,"Short Cycliste - Bordeaux, S",1,,59,49,,,1,,KG-SHO-02,Taille,S,,1,Couleur,Bordeaux,,1
+,variation,KG-SHO-02-BORD-M,"Short Cycliste - Bordeaux, M",1,,59,49,,,1,,KG-SHO-02,Taille,M,,1,Couleur,Bordeaux,,1
+,variation,KG-SHO-02-BORD-L,"Short Cycliste - Bordeaux, L",1,,59,49,,,1,,KG-SHO-02,Taille,L,,1,Couleur,Bordeaux,,1
+,variable,KG-TANK-02,Débardeur Femme Racer,1,"Dos nageur, tissu léger et respirant. À porter seul ou sur une brassière.",,,Femme,,1,,,Taille,"XS, S, M, L",1,1,Couleur,"Blanc, Sauge",1,1
+,variation,KG-TANK-02-BLAN-XS,"Débardeur Femme Racer - Blanc, XS",1,,39,,,,1,,KG-TANK-02,Taille,XS,,1,Couleur,Blanc,,1
+,variation,KG-TANK-02-BLAN-S,"Débardeur Femme Racer - Blanc, S",1,,39,,,,1,,KG-TANK-02,Taille,S,,1,Couleur,Blanc,,1
+,variation,KG-TANK-02-BLAN-M,"Débardeur Femme Racer - Blanc, M",1,,39,,,,1,,KG-TANK-02,Taille,M,,1,Couleur,Blanc,,1
+,variation,KG-TANK-02-BLAN-L,"Débardeur Femme Racer - Blanc, L",1,,39,,,,1,,KG-TANK-02,Taille,L,,1,Couleur,Blanc,,1
+,variation,KG-TANK-02-SAUG-XS,"Débardeur Femme Racer - Sauge, XS",1,,39,,,,1,,KG-TANK-02,Taille,XS,,1,Couleur,Sauge,,1
+,variation,KG-TANK-02-SAUG-S,"Débardeur Femme Racer - Sauge, S",1,,39,,,,1,,KG-TANK-02,Taille,S,,1,Couleur,Sauge,,1
+,variation,KG-TANK-02-SAUG-M,"Débardeur Femme Racer - Sauge, M",1,,39,,,,1,,KG-TANK-02,Taille,M,,1,Couleur,Sauge,,1
+,variation,KG-TANK-02-SAUG-L,"Débardeur Femme Racer - Sauge, L",1,,39,,,,1,,KG-TANK-02,Taille,L,,1,Couleur,Sauge,,1
+,variable,KG-JOG-02,Jogging Femme Wide,1,"Molleton doux, taille haute élastique et coupe large. Confort total, du studio au café.",,,Femme,Nouveau,1,,,Taille,"XS, S, M, L, XL",1,1,Couleur,"Gris chiné, Noir",1,1
+,variation,KG-JOG-02-GRIS-XS,"Jogging Femme Wide - Gris chiné, XS",1,,85,,,,1,,KG-JOG-02,Taille,XS,,1,Couleur,Gris chiné,,1
+,variation,KG-JOG-02-GRIS-S,"Jogging Femme Wide - Gris chiné, S",1,,85,,,,1,,KG-JOG-02,Taille,S,,1,Couleur,Gris chiné,,1
+,variation,KG-JOG-02-GRIS-M,"Jogging Femme Wide - Gris chiné, M",1,,85,,,,1,,KG-JOG-02,Taille,M,,1,Couleur,Gris chiné,,1
+,variation,KG-JOG-02-GRIS-L,"Jogging Femme Wide - Gris chiné, L",1,,85,,,,1,,KG-JOG-02,Taille,L,,1,Couleur,Gris chiné,,1
+,variation,KG-JOG-02-GRIS-XL,"Jogging Femme Wide - Gris chiné, XL",1,,85,,,,1,,KG-JOG-02,Taille,XL,,1,Couleur,Gris chiné,,1
+,variation,KG-JOG-02-NOIR-XS,"Jogging Femme Wide - Noir, XS",1,,85,,,,1,,KG-JOG-02,Taille,XS,,1,Couleur,Noir,,1
+,variation,KG-JOG-02-NOIR-S,"Jogging Femme Wide - Noir, S",1,,85,,,,1,,KG-JOG-02,Taille,S,,1,Couleur,Noir,,1
+,variation,KG-JOG-02-NOIR-M,"Jogging Femme Wide - Noir, M",1,,85,,,,1,,KG-JOG-02,Taille,M,,1,Couleur,Noir,,1
+,variation,KG-JOG-02-NOIR-L,"Jogging Femme Wide - Noir, L",1,,85,,,,1,,KG-JOG-02,Taille,L,,1,Couleur,Noir,,1
+,variation,KG-JOG-02-NOIR-XL,"Jogging Femme Wide - Noir, XL",1,,85,,,,1,,KG-JOG-02,Taille,XL,,1,Couleur,Noir,,1
+,variable,KG-CAP-01,Casquette Kong Classic,1,"Visière incurvée, logo brodé, réglage arrière. Taille unique.",,,Accessoires,,1,,,Taille,Unique,1,1,Couleur,"Noir, Blanc",1,1
+,variation,KG-CAP-01-NOIR-UNIQ,"Casquette Kong Classic - Noir, Unique",1,,35,,,,1,,KG-CAP-01,Taille,Unique,,1,Couleur,Noir,,1
+,variation,KG-CAP-01-BLAN-UNIQ,"Casquette Kong Classic - Blanc, Unique",1,,35,,,,1,,KG-CAP-01,Taille,Unique,,1,Couleur,Blanc,,1
+,variable,KG-BAG-01,Sac de Sport Duffel,1,"Compartiment chaussures séparé, bandoulière réglable, tissu déperlant. 35 litres.",,,Accessoires,,1,,,Taille,Unique,1,1,Couleur,Noir,1,1
+,variation,KG-BAG-01-NOIR-UNIQ,"Sac de Sport Duffel - Noir, Unique",1,,95,,,,1,,KG-BAG-01,Taille,Unique,,1,Couleur,Noir,,1

@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KONG Sports Wear — Vêtements de sport à La Marsa</title>
+  <meta name="description" content="KONG Sports Wear, marque de vêtements de sport à La Marsa : t-shirts, hoodies, joggings, leggings, brassières et accessoires. Commande en ligne, livraison partout en Tunisie.">
+  <meta name="theme-color" content="#0f1012">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="KONG Sports Wear — La Marsa">
+  <meta property="og:description" content="Tenues de sport homme, femme et accessoires. Livraison partout en Tunisie.">
+  <meta property="og:image" content="https://contactnasriimen-ctrl.github.io/kong-sportswear/og.png">
+  <meta property="og:url" content="https://contactnasriimen-ctrl.github.io/kong-sportswear/">
+  <link rel="canonical" href="https://contactnasriimen-ctrl.github.io/kong-sportswear/">
+  <meta property="og:locale" content="fr_TN">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ClothingStore",
+    "name": "KONG Sports Wear",
+    "description": "Vêtements de sport homme, femme et accessoires.",
+    "address": { "@type": "PostalAddress", "addressLocality": "La Marsa", "addressRegion": "Tunis", "addressCountry": "TN" },
+    "sameAs": ["https://www.facebook.com/kongsportswear"],
+    "currenciesAccepted": "TND"
+  }
+  </script>
+</head>
+<body>
+  <div class="demo-bar" id="demoBar" hidden>Catalogue de démonstration : produits et prix indicatifs</div>
+
+  <header class="header" id="top">
+    <div class="wrap header__in">
+      <a href="#top" class="logo" aria-label="KONG Sports Wear, accueil">
+        <span class="logo__mark">K</span><span class="logo__word">KONG</span><span class="logo__sub">Sports&nbsp;Wear</span>
+      </a>
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="#boutique">Boutique</a>
+        <a href="#marque">La marque</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="cart-btn" id="cartBtn" aria-label="Ouvrir le panier">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 7h12l-1 13H7L6 7Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 7a3 3 0 0 1 6 0" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+        <span class="cart-btn__count" id="cartCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero__in">
+        <div class="hero__text">
+          <p class="eyebrow">La Marsa · Sportswear</p>
+          <h1>Entraîne-toi comme un <span>KONG.</span></h1>
+          <p class="hero__lead">Des tenues pensées pour bouger, transpirer et recommencer. Homme, femme et accessoires, livrés partout en Tunisie.</p>
+          <div class="hero__cta">
+            <a href="#boutique" class="btn btn--volt">Voir la boutique</a>
+            <a href="#contact" class="btn btn--ghost">Nous écrire</a>
+          </div>
+        </div>
+        <div class="hero__art" id="heroArt" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <div class="perks" aria-label="Avantages"><div class="perks__track" id="perks"></div></div>
+
+    <section class="shop wrap" id="boutique">
+      <div class="shop__head">
+        <div>
+          <p class="eyebrow eyebrow--dark">Boutique</p>
+          <h2>La collection</h2>
+        </div>
+        <label class="sort">
+          <span class="sr-only">Trier</span>
+          <select id="sort">
+            <option value="">Pertinence</option>
+            <option value="asc">Prix croissant</option>
+            <option value="desc">Prix décroissant</option>
+          </select>
+        </label>
+      </div>
+      <div class="chips" id="chips" role="tablist" aria-label="Catégories"></div>
+      <div class="grid" id="grid" aria-live="polite"></div>
+    </section>
+
+    <section class="brand" id="marque">
+      <div class="wrap brand__in">
+        <div class="brand__intro">
+          <p class="eyebrow">La marque</p>
+          <h2>Né à La Marsa.<br>Fait pour l'effort.</h2>
+          <p>KONG Sports Wear habille celles et ceux qui s'entraînent pour de vrai : à la salle, sur la plage, en course ou en match. Des coupes qui suivent le mouvement et des tissus qui tiennent séance après séance.</p>
+        </div>
+        <div class="values">
+          <article class="value">
+            <span class="value__n">01</span>
+            <h3>Tissus techniques</h3>
+            <p>Respirants, stretch et à séchage rapide, pour rester au sec du premier au dernier set.</p>
+          </article>
+          <article class="value">
+            <span class="value__n">02</span>
+            <h3>Coupes athlétiques</h3>
+            <p>Des tailles XS à XXL, ajustées pour l'entraînement sans gêner les mouvements.</p>
+          </article>
+          <article class="value">
+            <span class="value__n">03</span>
+            <h3>Proche de vous</h3>
+            <p>Une équipe locale qui répond sur Messenger et vous conseille sur la bonne taille.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact wrap" id="contact">
+      <div class="contact__card">
+        <div>
+          <p class="eyebrow eyebrow--dark">Contact</p>
+          <h2>Une question sur une taille ?</h2>
+          <p class="muted">Écrivez-nous, on vous répond rapidement. Basés à <strong id="cityTxt">La Marsa, Tunis</strong>.</p>
+        </div>
+        <div class="contact__links" id="contactLinks"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__in">
+      <a href="#top" class="logo logo--footer"><span class="logo__mark">K</span><span class="logo__word">KONG</span></a>
+      <p>© <span id="year"></span> KONG Sports Wear · La Marsa</p>
+      <a id="fbFooter" href="https://www.facebook.com/kongsportswear" target="_blank" rel="noopener">Facebook</a>
+    </div>
+  </footer>
+
+  <!-- Fiche produit -->
+  <div class="modal" id="modal" hidden>
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__box" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+      <button class="icon-btn modal__x" data-close aria-label="Fermer">✕</button>
+      <div class="modal__media" id="mMedia"></div>
+      <div class="modal__body">
+        <p class="eyebrow eyebrow--dark" id="mCat"></p>
+        <h3 id="mTitle"></h3>
+        <p class="price" id="mPrice"></p>
+        <p class="muted" id="mDesc"></p>
+        <div class="opt" id="mColorsWrap">
+          <p class="opt__label">Couleur : <strong id="mColorName"></strong></p>
+          <div class="swatches" id="mColors"></div>
+        </div>
+        <div class="opt" id="mSizesWrap">
+          <p class="opt__label">Taille</p>
+          <div class="sizes" id="mSizes"></div>
+        </div>
+        <div class="modal__actions" id="mActions"></div>
+        <p class="hint" id="mHint" role="status"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Panier -->
+  <div class="drawer" id="drawer" hidden>
+    <div class="drawer__backdrop" data-close-cart></div>
+    <aside class="drawer__panel" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+      <div class="drawer__head">
+        <h3 id="cartTitle">Votre panier</h3>
+        <button class="icon-btn" data-close-cart aria-label="Fermer le panier">✕</button>
+      </div>
+      <div class="drawer__items" id="cartItems"></div>
+      <div class="drawer__foot" id="cartFoot">
+        <div class="total"><span>Total</span><strong id="cartTotal">0 DT</strong></div>
+        <p class="muted small" id="shipNote"></p>
+        <form class="order-form" id="orderForm" novalidate>
+          <input name="name" placeholder="Nom et prénom" autocomplete="name" required>
+          <input name="phone" placeholder="Téléphone" inputmode="tel" autocomplete="tel" required>
+          <input name="address" placeholder="Adresse de livraison (ville)" autocomplete="street-address">
+          <div class="order-btns" id="orderBtns"></div>
+          <p class="hint" id="orderHint" role="status"></p>
+        </form>
+      </div>
+    </aside>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/config.js"></script>
+  <script src="assets/products.js"></script>
+  <script src="assets/garments.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
